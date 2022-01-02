@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="blue">#FF0000FF</color>
+    <color name="gery">#EEEEEe</color>
+    <color name="grau">#EEEEEE</color>
+    <color name="green">#00FF00</color>
+    <color name="home_fragment_textColor">#4585F4</color>
+    <color name="lela">#DD99DD</color>
+    <dimen name="add_experience_layout_dialog_btn_margin">5dp</dimen>
+    <dimen name="btn_to_btn_margin">15dp</dimen>
+    <dimen name="experience_layout_lv_padding">5dp</dimen>
+    <dimen name="experience_layout_lv_txtsize">24sp</dimen>
+    <dimen name="home_fragment_layout_padding">5dp</dimen>
+    <dimen name="info_views_margin">5dp</dimen>
+    <dimen name="information_layout_padding">20dp</dimen>
+    <dimen name="option_view_txtSize">24sp</dimen>
+    <dimen name="optionlayout_height">50dp</dimen>
+    <dimen name="third_fragment_contact_btn_txtSize">24sp</dimen>
+    <dimen name="third_fragment_contact_layouts_padding">10dp</dimen>
+    <dimen name="third_fragment_contact_tv_width">120dp</dimen>
+    <string name="add_experience_layout_dialog_btn_cancel_txt">cancel</string>
+    <string name="add_experience_layout_dialog_btn_ok_txt">ok</string>
+    <string name="add_experience_layout_dialog_et_txt">enter your new experience</string>
+    <string name="app_discreption">"this applaction is smiliar to create Euro CVPASS  created by naser alsaleh "</string>
+    <string name="experiences_fragment_btn_txt">add</string>
+    <string name="fragmentimage_iv_desc">here must be image</string>
+    <string name="home_fragment_iv_disc">image</string>
+    <string name="info_layout_age_et_txt">enter your age</string>
+    <string name="info_layout_fname_et_txt">enter your name</string>
+    <string name="info_layout_job_et_txt">enter your job title</string>
+    <string name="info_layout_lname_et_txt">"enter your last name "</string>
+    <string name="info_layout_load_image_btn">select image</string>
+    <string name="info_layout_submit_image_btn">submit</string>
+    <string name="third_fragment_contact_Telefon">Tel:</string>
+    <string name="third_fragment_contact_btn">Save</string>
+    <string name="third_fragment_contact_btn_edit">edit</string>
+    <string name="third_fragment_contact_email">Email:</string>
+    <string name="third_fragment_contact_name">Employee</string>
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
+    <style name="Theme.NavigationDrawerWithTabLayout" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/>
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="Widget.MaterialComponents.NavigationRailView"/>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
+    <style name="experiences_lv_experience_layout_second_fragment">
+        <item name="android:textSize">@dimen/experience_layout_lv_txtsize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textDirection">firstStrongLtr</item>
+        <item name="android:padding">@dimen/experience_layout_lv_padding</item>
+    </style>
+    <style name="home_fragment_textview">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/home_fragment_textColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">naser</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentimage_iv_desc">here must be image</string>
+    <string name="home_fragment_iv_disc">image</string>
+    <string name="experiences_fragment_btn_txt">Add</string>
+    <string name="add_experience_layout_dialog_et_txt">enter your new experience</string>
+    <string name="add_experience_layout_dialog_btn_cancel_txt">cancel</string>
+    <string name="add_experience_layout_dialog_btn_ok_txt">ok</string>
+    <string name="third_fragment_contact_name">Employee</string>
+    <string name="third_fragment_contact_Telefon">Tel:</string>
+    <string name="third_fragment_contact_email">Email:</string>
+    <string name="third_fragment_contact_btn">Save</string>
+    <string name="third_fragment_contact_btn_edit">edit</string>
+    <string name="app_discreption">"this applaction is smiliar to create "Euro CVPASS"  created by naser alsaleh "</string>
+    <string name="info_layout_fname_et_txt">enter your name</string>
+    <string name="info_layout_age_et_txt">enter your age</string>
+    <string name="info_layout_lname_et_txt">"enter your last name "</string>
+    <string name="info_layout_load_image_btn">select image</string>
+    <string name="info_layout_submit_image_btn">submit</string>
+    <string name="info_layout_job_et_txt">enter your job title</string>
+</resources>

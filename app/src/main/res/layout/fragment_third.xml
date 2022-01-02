@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/third_fragment_contact_layouts_padding"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:id="@+id/third_fragment_contact_name_layout">
+
+        <TextView
+            android:id="@+id/third_fragment_contact_name_tv_label"
+            style="@style/experiences_lv_experience_layout_second_fragment"
+            android:layout_width="@dimen/third_fragment_contact_tv_width"
+            android:layout_height="wrap_content"
+            android:text="@string/third_fragment_contact_name"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/third_fragment_contact_name_et_label"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/third_fragment_contact_layouts_padding"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/third_fragment_contact_name_layout"
+        android:orientation="horizontal"
+        android:id="@+id/third_fragment_contact_email_layout">
+
+        <TextView
+            android:id="@+id/third_fragment_contact_email_tv_label"
+            style="@style/experiences_lv_experience_layout_second_fragment"
+            android:layout_width="@dimen/third_fragment_contact_tv_width"
+            android:layout_height="wrap_content"
+            android:text="@string/third_fragment_contact_email"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/third_fragment_contact_email_et_label"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/third_fragment_contact_layouts_padding"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/third_fragment_contact_email_layout"
+        android:id="@+id/third_fragment_contact_telefon_layout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/third_fragment_contact_telefon_tv_label"
+            style="@style/experiences_lv_experience_layout_second_fragment"
+            android:layout_width="@dimen/third_fragment_contact_tv_width"
+            android:layout_height="wrap_content"
+            android:text="@string/third_fragment_contact_Telefon"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/third_fragment_contact_telefon_et_label" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/third_fragment_contact_layouts_padding"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/third_fragment_contact_telefon_layout"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/third_fragment_contact_btn"
+            android:textSize="@dimen/third_fragment_contact_btn_txtSize"
+            android:layout_marginEnd="@dimen/btn_to_btn_margin"
+            android:id="@+id/third_fragment_contact_btn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/third_fragment_contact_btn_edit"
+            android:textSize="@dimen/third_fragment_contact_btn_txtSize"
+            android:id="@+id/third_fragment_contact_btn_edit"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

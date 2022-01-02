@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddExperiencefragment">
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         >
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/add_experience_layout_dialog_et"
+             android:hint="@string/add_experience_layout_dialog_et_txt"
+             />
+     </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/add_experience_layout_dialog_btn_margin"
+            android:text="@string/add_experience_layout_dialog_btn_cancel_txt"
+            android:id="@+id/add_experience_layout_dialog_btn_cancel" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/add_experience_layout_dialog_btn_margin"
+            android:text="@string/add_experience_layout_dialog_btn_ok_txt"
+            android:id="@+id/add_experience_layout_dialog_btn_ok"/>
+    </LinearLayout>
+</LinearLayout>
